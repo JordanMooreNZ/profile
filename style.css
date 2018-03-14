@@ -8,6 +8,20 @@ body {
   font-weight: lighter;
 }
 
+.btn-red {
+  color: white;
+  background: #d94b4b;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  color: #d94b4b;
+  background: white;
+  border: solid 1px;
+  border-color: #d94b4b;
+}
 .container {
   width: 500px;        /* Set the width */
   margin: 0 auto;      /* Set automatic margins on right/left */
@@ -66,6 +80,7 @@ i {
 
 h1, h2, h3 {
   font-family: 'Arvo', serif;
+  /*font-family: 'Roboto', sans-serif;*/
   color: #7C7C7C
 }
 
@@ -75,11 +90,12 @@ a, a:visited {
 }
 
 a:hover {
-  color: red;
+  color: #d94b4b;
 }
 
 h1 {
   font-size: 24px;
+  color: #d94b4b;
 }
 
 h2 {
