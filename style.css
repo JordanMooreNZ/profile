@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(240 240 240);
+  /*background-color: red;*/
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(70, 70, 70);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+#avatar {
+  border-radius: 50%;
+  border: solid 4px;
+  border-color: #CBCBCB;
+}
+
+img {
+  width: 150px;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  font-size: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+#hobbies img {
+  width: 100px;
+}
+
+.text-align-left{
+  text-align: left;
+}
+
+.content-align-top{
+  vertical-align: top;
+}
+
+.card {
+  text-align: center;
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  margin: 10px 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Arvo', serif;
+  color: #7C7C7C
+}
+
+a, a:visited {
+  color:rgb(180, 180, 180);
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+tr h3 {
+  margin-top: 0;
+}
